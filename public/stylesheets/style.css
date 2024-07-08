@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  width: 40%;
+}
+
+input{
+  height: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button{
+  color: #fff;
+  background-color: #00B7FF;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  user-select: none;
+}
