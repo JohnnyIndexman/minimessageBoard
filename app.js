@@ -8,6 +8,7 @@ const indexRouter = require('./routes/index');
 const newRouter = require('./routes/new');
 
 const app = express();
+const port = process.env.PORT || 5000;
 
 // app.locals.messages = [];
 
@@ -39,5 +40,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.listen(port, () => console.log('Server running...'))
 
 module.exports = app;
